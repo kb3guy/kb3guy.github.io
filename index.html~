@@ -44,7 +44,7 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/ProfilePic.png" class="card-img" alt="Andrew Young Portrait"/>
+	    <img src="img/ProfilePic.PNG" class="card-img" alt="Andrew Young Portrait"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -61,7 +61,7 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+	    <img src="img/resumeThumb.PNG" class="card-img" alt="Resume Thumbnail"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -93,7 +93,7 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/amodbus.png" class="card-img" alt="Arduino Modbus"/>
+	    <img src="img/amodbus.PNG" class="card-img" alt="Arduino Modbus"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -108,7 +108,7 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/rpiHmon.png" class="card-img" alt="HR Mon Thumbnail"/>
+	    <img src="img/rpiHmon.PNG" class="card-img" alt="HR Mon Thumbnail"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -154,7 +154,7 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/cheapGPIB.png" class="card-img" alt="GPIB project image"/>
+	    <img src="img/cheapGPIB.PNG" class="card-img" alt="GPIB project image"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -199,7 +199,7 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/burner.png" class="card-img" alt="Burner Project"/>
+	    <img src="img/burner.PNG" class="card-img" alt="Burner Project"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -213,7 +213,7 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+	    <img src="img/resumeThumb.PNG" class="card-img" alt="Resume Thumbnail"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -272,7 +272,7 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+	    <img src="img/resumeThumb.PNG" class="card-img" alt="Resume Thumbnail"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
