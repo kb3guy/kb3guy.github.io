@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- meta tags !-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS !-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<!-- Jquery, Popper, and Bootstrap !-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+	<title> Andrew Young's Portfolio </title>
+</head>
+<body class="bg-light">
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+	<a class="navbar-brand" href="#">Andrew Young - Portfolio</a>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item"><a class="nav-link" href="#intro">Introduction</a></li>
+			<li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+			<li class="nav-item"><a class="nav-link" href="#software">Software</a></li>
+			<li class="nav-item"><a class="nav-link" href="#controls">Controls and Electrical</a></li>
+			<li class="nav-item"><a class="nav-link" href="#mechanical">Mechanical Design</a></li>
+			<li class="nav-item"><a class="nav-link" href="#machine">Machine Repair</a></li>
+		</ul>
+	</div>
+
+</nav>
+<div class="container">
+
+
+<div class="row align-items-center">
+<div class="col-md-8 offset-md-2">
+
+<a name="intro"></a>
+<h1> Introduction </h1>
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/ProfilePic.png" class="card-img" alt="Andrew Young Portrait"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+<p class="card-text"> Hello, my name is Andrew Young. I'm a software developer by education, with past experience in the trades. I enjoy studying and applying topics from mechanical and electrical engineering, as well as physics in general. I can't claim to be an expert at all of that, but I enjoy the learning process and am always striving to expand the scope of what I can do. </p>
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+<a name="resume"></a>
+<h1> Resume</h1>
+
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="files/Resume.pdf">Resume Link</a></h5>
+      <p class="card-text"> I've worked a variety of trade jobs in the recent past, and graduated in 2019 with a degree in Software Development and security. I'm now looking to move my career in a way where I can leverage my understanding from past hands-on experience to create software that addresses business needs. Click on the link above to view a PDF copy of my resume. </p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a name="software"></a>
+<h1> Software Projects </h1>
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/dg1022.jpg" class="card-img" alt="dg1022"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="https://github.com/kb3guy/pyDG1022">pyDG1022</a></h5>
+	      <p class="card-text">This 2020 quarantine project allows me to control a Rigol DG1022 signal generator using a Raspberry Pi running Python. Other solutions exist, but none were successful for the specific platform that I wanted to use. </p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/amodbus.png" class="card-img" alt="Arduino Modbus"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="https://github.com/kb3guy/arduinoModbus">Arduino Modbus</a></h5>
+	      <p class="card-text"> This 2017 project allowed me to control a VFD using an Arduino and the Modbus protocol over RS485. It involved serial bus troubleshooting using an oscilloscope, as well as low-level bit wrangling. Although not developed to the point of being a useful utility for general purpose control manipulation, it was an enjoyable proof-of-concept. </p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/rpiHmon.png" class="card-img" alt="HR Mon Thumbnail"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="files/Resume.pdf">Heart Rate Monitor</a></h5>
+	      <p class="card-text"> This 2018 group project I worked on during my capstone course was intended to create an IoT heart rate monitor that would take heartbeat readings, send them to an AWS server that would analyze the cardiograms for heartbeat frequency and detect any arrhythmias, and send the results back to an android app. I was responsible for the hardware and MQTT client interaction with the AWS server. The various parts of the app and hardware necessary were all developed, but given the 8-week time period of the course, our group was unable to complete integration and test.  </p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a name="controls"></a>
+<h1> Controls, Electrical, and Electronic work </h1>
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/vfdBox.jpg" class="card-img" alt="VFD Box Thumbnail"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="files/Resume.pdf">VFD Accessory Box</a></h5>
+	      <p class="card-text"> This VFD accessory box was created to allow the operation of 220V three-phase, single-motor devices up to 1HP off of 120V power. It allows for multiple sources of frequency control input, has a port on the back for RS485 control, as well as the ability to manually adjust and monitor speed via a potentiometer and analog meter on the front control panel.</p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="files/Resume.pdf">Hardinge Lathe Control Panel</a></h5>
+	      <p class="card-text"> This current project is a rebuild of a Hardinge HLV lathe control panel. The machine is being converted from running on supplied 440V three-phase power to 220V single-phase power using a VFD. This necessitates the use of a microcontroller to tell the VFD when it is safe to activate the motor, and to switch several contactors which control the connection of the different windings on the two-speed motor. The control panel makes use of the original barrel switch to provide the intended operational feel.  </p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="files/Resume.pdf">cheapGPIB</a></h5>
+	      <p class="card-text"> This is a rebuild of a Hardinge HLV lathe control panel. The machine is being converted from running on supplied 440V three-phase power to 220V single-phase power using a VFD. This necessitates the use of a microcontroller to tell the VFD when it is safe to activate the motor, and to switch several contactors which control the connection of the different windings on the two-speed motor. The control panel makes use of the original barrel switch to provide the intended operational feel.  </p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a name="mechanical"></a>
+<h1> Mechanical Design </h1>
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="files/Resume.pdf">Shop Gantry Crane</a></h5>
+	      <p class="card-text"> I put together a number of designs for a shop gantry crane for use in machine restoration, and did some studies on the strength of materials involved and the joints necessary for supporting the expected load of one ton. I settled on and built a design using one free-standing end, and one end traveling on a track supported by a timber structure. The crane has successfully hoisted 125% of rated load by lifting the Van Norman mill (which weighs in at 2500lb.) </p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="files/Resume.pdf">Cyclone Dust Separator</a></h5>
+	      <p class="card-text"> This is a dust separator I designed and built last Fall, for use in the wood shop. It is based off of NRC reccomendations for proportions of cyclone separators. The design worked at first and seemed appropriate for the power of the blower used, but failed due to clogging caused by buildup on roughly made joints (I need to work on my tinsmithing.) </p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/burner.png" class="card-img" alt="Burner Project"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="https://github.com/kb3guy/burnerStudy/">Burner Calculators</a></h5>
+	      <p class="card-text"> This is a couple of studies done on the thermodynamics of propane burners during quarantine this year. It is an exploratory series of IPython notebooks which I do not consider to be complete, but provides an accurate picture of how far I've gotten with the subject, and my ability to create custom calculators for jobs at hand.  </p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="files/Resume.pdf">Gear Cutting Manual</a></h5>
+	      <p class="card-text"> This manual was a class project for a technical writing class. In it, I show how I go about manufacturing a gear on the Van Norman 16 mill. </p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a name="machine"></a>
+<h1> Machine Restoration </h1>
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="files/Resume.pdf">Pratt and Whitney Lathe</a></h5>
+	      <p class="card-text"> This small lathe came in excellent condition and required little except the fabrication of a countershaft unit to get started. It uses an unusual mechanism for rapid, repeatable threading, and has succesfully been used for small turning, drilling, boring, and threading operations in the shop. For its size, it is remarkably rigid and accurate, and is a joy to operate (despite being entirely OSHA non-compliant.)  </p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="files/Resume.pdf">Van Norman 16</a></h5>
+	      <p class="card-text"> The Van-Norman 16 mill is a previous restoration project. It uses a 2HP 220V three-phase motor to drive a geared head, and a 1/4hp three-phase motor to drive the table feed. The mill required fitting with two VFD's, some repair work to the table drive and horizontal arbor support, and a great deal of de-rusting. Custom milling arbors had to be designed and fabricated for the machine due to its use of an obsolete, proprietary collet system. It has been successfully used for small milling jobs, including gear-making.</p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="files/Resume.pdf">HLV Lathe</a></h5>
+	      <p class="card-text"> This hardinge HLV lathe is a current restoration project, was previously owned by the Douglas aircraft company, and likely manufactured sometime between the late 1940's and 1959, when the model was made obsolete. It uses a 1HP, two-speed 440V three-phase motor. VFD and step-up transformer have been successfully tested to drive the motor, and the control panel is ready to be mounted and tested in-situ. Jobs to be completed include manufacture of an idler gear for driving the threading box, repair of the tailstock feed nut, accuracy testing, bed regrinding if necessary, and painting. </p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style="max-width: 800px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+	      <h5 class="card-title"><a href="files/Resume.pdf">Hardinge UM Mill</a></h5>
+	      <p class="card-text"> This small mill by Hardinge is a current restoration project. It has a 3/4HP, two-speed 200V three-phase motor, and will require a microcontroller-switched interface to be operated properly with a VFD, similar to the one in development for Hardinge lathe. With its universal table, it is capable of helical milling. The machine is currently operable using a Bridgeport M-head driven by the accessory VFD box. Jobs to be completed include control design, scraping in, and painting. </p>
+        <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>
