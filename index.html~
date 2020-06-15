@@ -129,7 +129,7 @@
     </div>
     <div class="col-md-8">
       <div class="card-body">
-	      <h5 class="card-title"><a href="files/Resume.pdf">VFD Accessory Box</a></h5>
+	      <h5 class="card-title"><a href="https://github.com/kb3guy/vfdBox">VFD Accessory Box</a></h5>
 	      <p class="card-text"> This VFD accessory box was created to allow the operation of 220V three-phase, single-motor devices up to 1HP off of 120V power. It allows for multiple sources of frequency control input, has a port on the back for RS485 control, as well as the ability to manually adjust and monitor speed via a potentiometer and analog meter on the front control panel.</p>
         <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
       </div>
@@ -139,7 +139,7 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+	    <img src="img/hlvControl.jpg" class="card-img" alt="Hardinge HLV Control Panel"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -154,12 +154,12 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+	    <img src="img/cheapGPIB.png" class="card-img" alt="GPIB project image"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
-	      <h5 class="card-title"><a href="files/Resume.pdf">cheapGPIB</a></h5>
-	      <p class="card-text"> This is a rebuild of a Hardinge HLV lathe control panel. The machine is being converted from running on supplied 440V three-phase power to 220V single-phase power using a VFD. This necessitates the use of a microcontroller to tell the VFD when it is safe to activate the motor, and to switch several contactors which control the connection of the different windings on the two-speed motor. The control panel makes use of the original barrel switch to provide the intended operational feel.  </p>
+	      <h5 class="card-title"><a href="https://github.com/kb3guy/cheapGPIB">cheapGPIB</a></h5>
+	      <p class="card-text"> This current project is to design and build a hardware interface between USB and GPIB, a common test equipment bus. It was much cheaper to buy the components necessary to do the build than it would be to buy a commercial implementation. Currently, the hardware list and schematic are complete - PWB artwork still needs to be made. </p>
         <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
       </div>
     </div>
@@ -171,7 +171,7 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+	    <img src="img/gantry.jpg" class="card-img" alt="Gantry Crane"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -185,11 +185,11 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+	    <img src="img/cyclone.jpg" class="card-img" alt="Resume Thumbnail"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
-	      <h5 class="card-title"><a href="files/Resume.pdf">Cyclone Dust Separator</a></h5>
+	      <h5 class="card-title"><a href="https://github.com/kb3guy/cycloneSep">Cyclone Dust Separator</a></h5>
 	      <p class="card-text"> This is a dust separator I designed and built last Fall, for use in the wood shop. It is based off of NRC reccomendations for proportions of cyclone separators. The design worked at first and seemed appropriate for the power of the blower used, but failed due to clogging caused by buildup on roughly made joints (I need to work on my tinsmithing.) </p>
         <p class="card-text"><small class="text-muted">Last updated 6/14/2020</small></p>
       </div>
@@ -244,7 +244,7 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+	    <img src="img/vnMill.jpg" class="card-img" alt="Van Norman 16 Mill"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -258,7 +258,7 @@
 <div class="card mb-3" style="max-width: 800px;">
   <div class="row no-gutters">
     <div class="col-md-4">
-	    <img src="img/resumeThumb.png" class="card-img" alt="Resume Thumbnail"/>
+	    <img src="img/HLV.jpg" class="card-img" alt="Resume Thumbnail"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
